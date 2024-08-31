@@ -64,7 +64,7 @@ This project demonstrates how to establish communication between two AVR microco
   - Loads dummy data (`0xff` or `DUMMY_DATA`) into **SPDR** to maintain the SPI clock while receiving data.
   - Waits for the transmission to complete.
   - Returns the received data from the **SPDR**.
-   - 
+  
 ### **Applications**
 This project can be adapted for various applications, such as:
 - **Data Logging Systems**: Where data from multiple sensors (slaves) are collected by a central microcontroller (master).
